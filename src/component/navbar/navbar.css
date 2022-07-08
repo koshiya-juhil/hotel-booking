@@ -1,0 +1,55 @@
+.navbar{
+    background-color: #003580;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+
+@media (max-width: 1060px){
+    .navContainer{
+        min-width: 768px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 796px){
+    .navContainer{
+        min-width: 425px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 445px){
+    .navContainer{
+        min-width: 300px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
