@@ -1,14 +1,16 @@
+# Home page
+
 ![booking home](https://user-images.githubusercontent.com/107427119/178468822-8dea3480-97ba-4d25-9b49-3d6b041cb9cc.png)
 
-On clicking Search button
+# On clicking Search button
 
 ![booking list](https://user-images.githubusercontent.com/107427119/178468859-56bf67a6-d930-422f-90e6-e6970e1900b4.png)
 
-On clicking Book Now button
+# On clicking Book Now button
 
 ![booking hotel](https://user-images.githubusercontent.com/107427119/178468883-ca423ded-aa7e-47df-a587-8017be81095f.png)
 
-On clicking images opens slider
+# On clicking images opens slider
 
 ![booking photo](https://user-images.githubusercontent.com/107427119/178468896-7169b209-e150-4147-9d26-0de31070925b.png)
 
