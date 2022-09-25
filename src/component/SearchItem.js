@@ -1,5 +1,4 @@
-import './searchItem.css'
-import gh from '../../photos/grandhyat.jpeg'
+import gh from '../photos/grandhyat.jpeg'
 import { useNavigate } from 'react-router-dom'
 
 function SearchItem() {

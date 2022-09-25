@@ -1,13 +1,12 @@
-import './list.css'
-import Navbar from '../../component/navbar/Navbar'
-import Header from '../../component/header/Header'
+import Navbar from '../component/Navbar'
+import Header from '../component/Header'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { format } from 'date-fns'
 import { DateRange } from 'react-date-range'
-import SearchItem from '../../component/searchItem/SearchItem'
-import MailList from '../../component/mailList/MailList'
-import Footer from '../../component/footer/Footer'
+import SearchItem from '../component/SearchItem'
+import MailList from '../component/MailList'
+import Footer from '../component/Footer'
 
 const List = () => {
 
@@ -29,11 +28,11 @@ const List = () => {
                         <h1 className="lsTitle">Search</h1>
                         <div className="lsItem">
                             <label htmlFor="">Destination</label>
-                            <input type="text" placeholder={destination} />
+                            <input type="text" className='fz-16' placeholder={destination} />
                         </div>
                         <div className="lsItem">
                             <label htmlFor="">Check-in Date</label>
-                            <span onClick={() => setOpenDate(!openDate)}>
+                            <span className='fz-16' onClick={() => setOpenDate(!openDate)}>
                                 {`${format(date[0].startDate, "dd/MM/yyyy")} to ${format(date[0].endDate, "dd/MM/yyyy")}`}
                             </span>
                             {openDate && <DateRange
@@ -46,28 +45,28 @@ const List = () => {
                             <label htmlFor="">Options</label>
                             <div className="lsOption">
                                 <div className="lsOptionItem">
-                                    <span className="lsOptionText">Min price <small>per night</small></span>
+                                    <span className="lsOptionText fz-16">Min price <small>per night</small></span>
                                     <input type="number" className='lsOptionInput' />
                                 </div>
                                 <div className="lsOptionItem">
-                                    <span className="lsOptionText">Max price <small>per night</small></span>
+                                    <span className="lsOptionText fz-16">Max price <small>per night</small></span>
                                     <input type="number" className='lsOptionInput' />
                                 </div>
                                 <div className="lsOptionItem">
-                                    <span className="lsOptionText">Adult</span>
+                                    <span className="lsOptionText fz-16">Adult</span>
                                     <input type="number" min={1} className='lsOptionInput' placeholder={options.adult} />
                                 </div>
                                 <div className="lsOptionItem">
-                                    <span className="lsOptionText">Children</span>
+                                    <span className="lsOptionText fz-16">Children</span>
                                     <input type="number" min={0} className='lsOptionInput' placeholder={options.children} />
                                 </div>
                                 <div className="lsOptionItem">
-                                    <span className="lsOptionText">Room</span>
+                                    <span className="lsOptionText fz-16">Room</span>
                                     <input type="number" min={1} className='lsOptionInput' placeholder={options.room} />
                                 </div>
                             </div>
                         </div>
-                        <button>Search</button>
+                        <button className='fz-16'>Search</button>
                     </div>
                     <div className="listResult">
                         <SearchItem />

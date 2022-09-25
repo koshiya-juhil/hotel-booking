@@ -1,8 +1,7 @@
-import './featuredProperties.css'
-import tajmahal from '../../photos/tajmahal.jpeg'
-import fairmont from '../../photos/fairmont.jpeg'
-import holidayinn from '../../photos/holidayinn.jpeg'
-import leelapalace from '../../photos/leelapalace.jpeg'
+import tajmahal from '../photos/tajmahal.jpeg'
+import fairmont from '../photos/fairmont.jpeg'
+import holidayinn from '../photos/holidayinn.jpeg'
+import leelapalace from '../photos/leelapalace.jpeg'
 
 function FeaturedProperties() {
     return (

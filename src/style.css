@@ -1,0 +1,1028 @@
+
+.fz-16{
+    font-size: 1.6rem;
+}
+.fz-12{
+    font-size: 1.2rem;
+}
+.fz-38{
+    font-size: 3.8rem;
+}
+
+/* Featured */
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.featuredItem{
+    position: relative;
+    color: white;
+    height: 250px;
+}
+
+.featuredTitles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(0,27,65,0.65) 0,rgba(0,27,65,0) 100%);
+    text-shadow: 1px 1px 1px #000;
+}
+
+.featuredTitlesh2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featuredTitlesh1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 1060px){
+    .featured{
+        min-width: 768px;
+    }
+}
+@media (max-width: 796px){
+    .featured{
+        min-width: 425px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .featuredTitles{
+        width: 98%;
+    }
+}
+@media (max-width: 445px){
+    .featured{
+        min-width: 300px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .featuredTitles{
+        width: 98%;
+    }
+}
+/* ***************************************************************** */
+
+/* Featured Properties */
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.fpItem{
+    /* flex: 1; */
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fpImg{
+    width: 100%;
+    cursor: pointer;
+}
+
+.fpName{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.fpCity{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.fpPrice{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.fpRating>button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 2px 7px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.fpRating>span{
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1060px){
+    .fp{
+        min-width: 768px;
+    }
+}
+@media (max-width: 796px){
+    .fp{
+        min-width: 425px;
+    }
+}
+@media (max-width: 445px){
+    .fp{
+        min-width: 300px;
+        flex-wrap: wrap;
+    }
+}
+/* *********************************************************** */
+
+/* Footer */
+.footer{
+    width: 100%;
+    max-width: 1024px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    max-width: 1024px;
+    padding: 1rem;
+}
+
+.fList{
+    padding: 0;
+    list-style: none;
+    margin: 1rem;
+}
+
+.fListItem{
+    margin-bottom: 10px;
+    color: #003580;
+    cursor: pointer;
+}
+
+@media (max-width: 1060px){
+    .fLists{
+        min-width: 768px;
+    }
+}
+@media (max-width: 796px){
+    .fLists{
+        min-width: 425px;
+    }
+}
+@media (max-width: 445px){
+    .fLists{
+        min-width: 300px;
+    }
+}
+/* *********************************************************** */
+
+/* Header */
+.header{
+    background-color: #003580;
+    color:  white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 2rem 0px 10rem 0px;
+}
+.headerContainer.listMode{
+    margin: 2rem 0px 0px 0px;
+}
+
+.headerList{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerTopIcon{
+    font-size: 1.5rem;
+}
+
+.headerTitle{
+    font-size: 3.2rem;
+}
+
+.headerDesc{
+    margin: 20px 0px;
+    font-size: 1.6rem;
+}
+
+.headerBtn{
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 5rem;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -2.5rem;
+    width: 100vw;
+    max-width: 1024px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.hearderSearchBtn{
+    width: 80px;
+}
+
+.headerIcon{
+    color: lightgray;
+    font-size: 1.7rem;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+}
+
+.headerSearchText{
+    color: gray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options{
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.5);
+}
+
+.optionItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+
+.header>button{
+    font-size: 1.6rem;
+}
+
+@media (max-width: 1060px){
+    .headerContainer{
+        min-width: 768px;
+        padding: 0rem 2rem;
+    }
+    .headerSearch{
+        margin: 0rem 0rem;
+        width: 98%;
+    }
+}
+@media (max-width: 796px){
+    .headerContainer{
+        min-width: 425px;
+        padding: 0rem 2rem;
+    }
+    .headerSearch{
+        margin: 0rem 0rem;
+    }
+    .headerList{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 445px){
+    .headerContainer{
+        min-width: 300px;
+        padding: 0rem 2rem;
+    }
+    .headerSearch{
+        margin: 0rem 0rem;
+    }
+    .headerList{
+        flex-wrap: wrap;
+    }
+}
+/* ******************************************************************************* */
+
+/* MailList */
+.mail {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #00265b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.mailInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailInputContainer>input {
+    width: 300px;
+    height: 5rem;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 1.6rem;
+}
+
+.mailInputContainer>button {
+    height: 50px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 450px) {
+    .mail {
+        flex-wrap: wrap;
+    }
+
+    .mailInputContainer {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+/* ******************************************************************** */
+
+/* Navbar */
+.navbar-con{
+    background-color: #003580;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+.logo:hover {
+    color: white;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+
+@media (max-width: 1060px){
+    .navContainer{
+        min-width: 768px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 796px){
+    .navContainer{
+        min-width: 425px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 445px){
+    .navContainer{
+        min-width: 300px;
+    }
+    .navbar{
+        padding: 0rem 3rem;
+    }
+}
+/* *********************************************************** */
+
+/* Property List */
+.pList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.pListItem{
+    cursor: pointer;
+    /* flex: 1; */
+}
+
+.pListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pListTitles>h1{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+.pListTitles>h2{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.pList>h1{
+    font-size: 3.2rem;
+}
+
+@media (max-width: 1060px){
+    .pList{
+        min-width: 768px;
+    }
+}
+@media (max-width: 796px){
+    .pList{
+        min-width: 425px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 425px){
+    .pList{
+        min-width: 300px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+/* ************************************************************* */
+
+/* Search Item */
+.searchItem{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle{
+    font-size: 2.5rem;
+    color: #0071c2;
+}
+.siDistance{
+    font-size: 1.4rem;
+}
+.siTaxiOp{
+    font-size: 1.2rem;
+    color: white;
+    background-color: #008009;
+    width: max-content;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+.siSubtitle{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.siFeatures{
+    font-size: 1.4rem;
+}
+.siCancelOp{
+    font-size: 1.4rem;
+    color: #008009;
+    font-weight: bold;
+}
+.siCancelOpSubtitle{
+    font-size: 1.3rem;
+    color: #008009;
+}
+
+.siDetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.siRating{
+    display: flex;
+    justify-content: space-around;
+}
+
+.siRating>span{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.siRating>button{
+    font-weight: bold;
+    background-color: #003580;
+    color: white;
+    padding: 3px 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.sidetailTexts{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.siPrice{
+    font-size: 2.4rem;
+}
+
+.siTaxOp{
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.siCheckButton{
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 10px 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1060px){
+    .siImg{
+        width: 180px;
+        height: 180px;
+    }
+}
+@media only screen and (max-width: 796px){
+    .siImg{
+        width: 170px;
+        height: 170px;
+    }
+}
+@media only screen and (max-width: 445px){
+    
+}
+/* ***************************************************************************** */
+
+/* Home */
+html {
+    font-size: 62%;
+}
+
+.homeContainer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.homeTitle{
+    max-width: 1024px;
+    font-size: 2.5rem;
+}
+
+@media (max-width:1060px) {
+    html{
+        font-size: 60%;
+    }
+}
+@media (max-width:768px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1060px){
+    .homeContainer{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 796px){
+    .homeContainer{
+        padding: 0rem 3rem;
+    }
+}
+@media (max-width: 445px){
+    .homeContainer{
+        padding: 0rem 3rem;
+    }
+}
+/* ************************************************************************ */
+
+/* Hotel */
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    margin-top: 20px;
+}
+
+.bookNow{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #0071c2;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.hotelTitle{
+    font-size: 2.6rem;
+}
+
+.hotelAddress{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hotelDistance{
+    color: #0071c2;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.hotelPriceHighlight{
+    color: #008009;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.hotelImages{
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotelImgWrapper{
+    width: 33%;
+}
+
+.hotelImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hotelDetailsTexts{
+    flex: 3;
+}
+
+.hotelDesc{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.hotelDetailsPrice{
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: max-content;
+}
+
+.hotelDetailsPrice>h1{
+    font-size: 1.8rem;
+    color: #555;
+}
+.hotelDetailsPrice>span{
+    font-size: 1.4rem;
+}
+.hotelDetailsPrice>h2{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.hotelDetailsPrice>button{
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.arrow{
+    margin: 20px;
+    font-size: 5rem;
+    cursor: pointer;
+    color: lightgray;
+}
+
+
+@media (max-width: 650px){
+    .hotelDetails{
+        flex-direction: column;
+    }
+}
+/* ***************************************************************************** */
+
+/* List Page */
+.listContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #febb02;
+    padding: 1rem;
+    position: sticky;
+    top: 1rem;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.lsTitle{
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.lsItem>label{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.lsItem>span{
+    height: 30px;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.lsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.4rem;
+}
+.lsOptionInput{
+    width: 50px;
+    font-size: 1.6rem;
+}
+.lsOption{
+    padding: 10px;
+}
+
+.listSearch>button{
+    padding: 10px;
+    color: white;
+    background-color: #0071c2;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+}
+
+.listResult{
+    flex: 3;
+}
+
+
+@media only screen and (max-width: 1060px){
+    .listContainer{
+        padding: 0rem 2rem;
+    }
+    html{
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width: 796px){
+    html{
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width: 445px){
+    
+}
+/* *************************************************************************** */
+
+/* Login */
+.bg{
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0575E6, #11376c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0575E6, #11376c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flexclass {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 2rem 0px 10rem 0px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+.mt-130{
+    margin-top: 130px;
+}
+
+.inputField{
+    height: 32px;
+    font-size: 20px;
+    size: 20px;
+}
+
+.form>label{
+    font-size: 16px;
+}
+
+.btn-font{
+    font-size: 20px;
+}
+
+.line {
+    width: 100%;
+    align-self: center;
+    background-color: #195b9d;
+    height: 1px;
+    margin-bottom: 4px;
+}
+/* ********************************************************************** */

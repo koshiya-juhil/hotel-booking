@@ -1,4 +1,4 @@
-.navbar{
+.navbar-con{
     background-color: #003580;
     height: 50px;
     display: flex;
@@ -19,6 +19,9 @@
     font-size: 3rem;
     color: white;
     text-decoration: none;
+}
+.logo:hover {
+    color: white;
 }
 
 .navButton{

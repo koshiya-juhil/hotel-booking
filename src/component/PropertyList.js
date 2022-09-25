@@ -1,9 +1,8 @@
-import './propertyList.css'
-import hotels from '../../photos/hotels.jpeg'
-import apartments from '../../photos/apartments.jpeg'
-import resorts from '../../photos/resorts.jpeg'
-import villas from '../../photos/villas.jpeg'
-import holidayhomes from '../../photos/holidayhomes.jpeg'
+import hotels from '../photos/hotels.jpeg'
+import apartments from '../photos/apartments.jpeg'
+import resorts from '../photos/resorts.jpeg'
+import villas from '../photos/villas.jpeg'
+import holidayhomes from '../photos/holidayhomes.jpeg'
 
 function PropertyList() {
   return (
